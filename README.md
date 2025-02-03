@@ -1,9 +1,9 @@
-## System programming
+# System programming
 Repositorio con el código de un sistema operativo capaz de correr el "pong" y el "snake"
 
 ## ¿De qué se trata? 
 
-# Introducción
+### Introducción
 
 Durante la cursada de la materia "Arquitectura y Organización del Computador", realicé un trabajo práctico con el objetivo de ingresar al mundo de
 System Programming. 
@@ -19,7 +19,7 @@ nuevos archivos.
 Clase a clase, se trabajó una perspectiva o parte diferente del
 sistema.
 
-# El manual
+### El manual
 
 Intel nos ofrece documentación para que podamos llevar a cabo la tarea
 antes descripta. Como recurso utilicé los siguientes manuales:
@@ -34,7 +34,7 @@ Intel® 64 and IA-32 Architectures Software Developer's Manual Volume 3
 (3A, 3B, 3C & 3D):System Programming Guide
 
 
-# QEMU
+### QEMU
 
 Se utiliza como entorno de pruebas el programa QEMU. Este nos
 permite simular el arranque de una computadora IBM-PC compatible.
