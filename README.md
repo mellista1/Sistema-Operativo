@@ -16,6 +16,7 @@ El trabajo fue incremental a lo largo de varias clases prácticas.
 La idea fue crear un único software en modo 32 bits con un mismo conjunto
 de archivos y código al cual se le van a ir agregando más código y
 nuevos archivos.
+
 Clase a clase, se trabajó una perspectiva o parte diferente del
 sistema.
 
@@ -23,6 +24,7 @@ sistema.
 
 Intel nos ofrece documentación para que podamos llevar a cabo la tarea
 antes descripta. Como recurso utilicé los siguientes manuales:
+
 Intel® 64 and IA-32 Architectures Software Developer's Manual Volume
 1: Basic Architecture
 
@@ -57,5 +59,17 @@ taller y el trabajo consistió en, a partir de ahí, construir parte de
 ese kernel de modo que a final de cuatrimestre, pueda ejecutar programas
 y tareas sencillas.
 
+## ¿Cómo navegar por el repositorio?
 
+Como el presente trabajo fue un proyecto que se realizó clase a clase de forma progresiva, la idea es leer los archivos en el orden que se indica posteriormente. 
+Los siguientes archivos corresponden a las actividades que se debían realizar con sus respectivas justificaciones teóricas. 
 
+1° | modo-protegido.md
+
+2° | interrupciones.md
+
+3° | paginacion.md
+
+4° | tareas.md
+
+Nota al lector: Es posible que encuentre comentarios con preguntas que surgieron durante las clases. 
