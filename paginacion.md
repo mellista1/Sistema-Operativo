@@ -173,11 +173,6 @@ d)  ¿Qué sucede si los atributos U/S y R/W del directorio y de la tabla
 
     en todas las otras combinaciones te va a quedar dependiendo de cr0.wp. (si es 1....)
 
-    CONSULTARconsultarrrrrrrrrrrrr
-    :(
-
-
-
 
 
 e)  Suponiendo que el código de la tarea ocupa dos páginas y
@@ -215,7 +210,6 @@ Cada entrada de la tabla contiene el indice del directorio, el indice de la tabl
 
 No. No se ve afectada.
 
-CONSULTARRRRRRRRRRRRRRRRRR
 ### Segunda parte: Activando el mecanismo de paginación.
 
 a)  Escriban el código de las funciones `mmu_next_free_kernel_page`,
@@ -229,8 +223,6 @@ b)  Completar el código para activar paginación en `kernel.asm`.
     Recuerden que es necesario inicializar el registro `CR3` y activar
     el bit correspondiente de CR0. Esta inicialización debe realizarse
     antes de activar las interrupciones del procesador.
-
-CONSULTAARRRRRRRRRRRRRRRRRR. Chequear que lo que hicimos tiene sentido xd
 
 c)  Introduzcan un breakpoint luego de activar paginación y prueben
     hacer **info page** para comprobar que el mapeo identidad se realizó
@@ -256,8 +248,6 @@ c)  Realicen una prueba donde se compruebe el funcionamiento de
     contenido de direcciones virtuales y `xp` para inspeccionar el
     contenido de direcciones físicas.
 
-
-  CHEQUEAR TODOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
   d)  Completen la rutina (`mmu_init_task_dir`) encargada de inicializar
     un directorio de páginas y tablas de páginas para una tarea,
     respetando la figura [2]. La rutina debe mapear las páginas de
@@ -272,8 +262,6 @@ e)  Completen la rutina de atención de interrupción del Page Fault para
     cuando este no está mapeado, se mapee. Respeten la figura
     [2]. Se debe mapear como de lectura-escritura a nivel usuario.
 
-
-    NO PUDIMOS CHEQUEARLO
 
 f)  A modo de prueba, en `kernel.asm` vamos a construir un mapa de
     memoria para una tarea ficticia (es decir, cargar el `CR3` de una
@@ -291,7 +279,6 @@ f)  A modo de prueba, en `kernel.asm` vamos a construir un mapa de
     breakpoints una vez que se asigna el `CR3` de la tarea y cuando
     se restituye el `CR3` del kernel.
 
-  NO ENTENDIMOS COMO REALIZAR LA INSPECCIÓN
 
 
 
