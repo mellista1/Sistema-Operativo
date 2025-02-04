@@ -71,9 +71,6 @@ Para el Selector de Segmento, recuerden que la rutina de atención de interrupci
 
 Los indices de selectores de segmentos apropiados serian GDT_IDX_CODE_0
 
-No entendemos, PREGUNTARPREGUNTARPREGUNTARPREGUNTARPREGUNTARPREGUNTARPREGUNTARPREGUNTARPREGUNTAR
-
-
 
 c) :pen_fountain: De manera similar, completar la macro `IDT_ENTRY3` para que defina interrupciones que puedan ser disparadas por código no privilegiado (nivel 3).
 
@@ -90,9 +87,6 @@ Usar la macro correspondiente para definir system calls con número 88 y 98.
 
 Compilen y ejecuten con qemu.
 Pueden examinar la IDT con el comando `info idt` para ver toda la tabla o usar GDB tradicionalmente para ver una entrada: `p idt[x]` dónde `x` es el número de entrada en la IDT.
-
-CONSULTARRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
-
 
 
 
